@@ -1,7 +1,8 @@
 body{
     background-image:url("img/gameimg.jpg");
     background-size: cover;
-    margin-left: 306px;
+    margin-left: 206px;
+    margin-right:0;
 }
 
 img.static{
@@ -9,26 +10,28 @@ img.static{
 }
 .Mainbanner{
     color:rgb(238, 235, 255);
-    text-shadow: 5px 5px #16345A, 8px 8px #284D8E, 11px 11px #4D8CBF;
     font-family: 'Great Vibes', cursive;
 }
 a{
     color:black;
-    text-decoration:none;  
+    text-decoration:none;
 }
 h1{
     top:0;
-    margin-left: 0.5vw;
-    margin-bottom: 5vw;
-    padding:10vw;
-    background-image:url("img/gameimg4.jpg");
-    background-size:cover;
+    margin-left: 0vw;
+    margin-right: 0vmin;
+    margin-top: 10vmin;
+    margin-bottom: 8vmin;
+    background-image:url("img/gameimg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding:1vmin;
     font-size:5.5vw;
-    border:3px solid rgb(67, 125, 149);
     text-align: center;
-    color:rgb(255, 136, 0);
+    color:rgb(220, 230, 230);
     font-family: 'Nanum Brush Script', cursive;
-    text-shadow: 5px 5px #16345A, 8px 8px #284D8E, 11px 11px #4D8CBF;
+    text-shadow: 5px 5px #1c4274, 8px 8px #3160b1, 11px 11px #57a2df;
 }
 h2, h3, p, img{
     margin-left: 35px;
@@ -40,11 +43,11 @@ h4{
     top: 0;
     margin-top:8px;
     margin-bottom:0.5px;
-    font-size:25px;
+    font-size:30px;
     text-align: center;
 }
 h6{ 
-    font-size:45px;
+    font-size:25px;
     text-align:center;
     margin-top:1vw;
     margin-bottom:1vw;
@@ -53,16 +56,16 @@ h6{
     position: fixed;
     top: 0vw;
     /* width: 100% */
-    left: 306px;
+    left:0;
     right: 0;
     padding-bottom: 1vw;
     border-bottom:3px solid  rgb(175, 175, 175);
     background-color: rgb(255, 255, 255);
 }
 nav{     
-    top:0;
+    top:15px;
     left: 0;  
-    width:300px;
+    width:200px;
     background-color: rgb(255, 255, 255);
     border:3px solid  rgb(175, 175, 175);
     border-top:none;
@@ -83,7 +86,6 @@ html, body{
     font-family: 'Jua', sans-serif;
 }
 .menu li a{
-   
     text-align:center;
     height:30px;
     line-height:30px;
@@ -92,7 +94,7 @@ html, body{
     font-size:24px;
     color:rgb(0, 0, 0);
 }
-.menu li a:hover{background-color:rgb(67, 125, 149); color:rgb(255, 136, 0);}
+.menu li a:hover{background-color:rgb(13, 43, 69); color:rgb(255, 255, 255);}
 iframe, img{
     margin-right:40px;
 }
