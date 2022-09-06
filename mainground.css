@@ -1,0 +1,98 @@
+body{
+    background-image:url("img/gameimg.jpg");
+    background-size: cover;
+    margin-left: 306px;
+}
+
+img.static{
+    position:static;
+}
+.Mainbanner{
+    color:rgb(238, 235, 255);
+    text-shadow: 5px 5px #16345A, 8px 8px #284D8E, 11px 11px #4D8CBF;
+    font-family: 'Great Vibes', cursive;
+}
+a{
+    color:black;
+    text-decoration:none;  
+}
+h1{
+    top:0;
+    margin-left: 0.5vw;
+    margin-bottom: 5vw;
+    padding:10vw;
+    background-image:url("img/gameimg4.jpg");
+    background-size:cover;
+    font-size:5.5vw;
+    border:3px solid rgb(67, 125, 149);
+    text-align: center;
+    color:rgb(255, 136, 0);
+    font-family: 'Nanum Brush Script', cursive;
+    text-shadow: 5px 5px #16345A, 8px 8px #284D8E, 11px 11px #4D8CBF;
+}
+h2, h3, p, img{
+    margin-left: 35px;
+}
+p{
+    font-size:120%;
+}
+h4{
+    top: 0;
+    margin-top:8px;
+    margin-bottom:0.5px;
+    font-size:25px;
+    text-align: center;
+}
+h6{ 
+    font-size:45px;
+    text-align:center;
+    margin-top:1vw;
+    margin-bottom:1vw;
+}
+.main{
+    position: fixed;
+    top: 0vw;
+    /* width: 100% */
+    left: 306px;
+    right: 0;
+    padding-bottom: 1vw;
+    border-bottom:3px solid  rgb(175, 175, 175);
+    background-color: rgb(255, 255, 255);
+}
+nav{     
+    top:0;
+    left: 0;  
+    width:300px;
+    background-color: rgb(255, 255, 255);
+    border:3px solid  rgb(175, 175, 175);
+    border-top:none;
+    position:fixed; /*공중에 떠서 공간을 차지하지 않음*/
+    height:200%;    /*fixed를 해서 높이 100%가 가능해진다*/
+}
+#example2 {
+    padding-left: 0;
+}
+ 
+#example2 li {
+    list-style: none;
+}
+ul.li{
+    list-style-type: none;
+}
+html, body{
+    font-family: 'Jua', sans-serif;
+}
+.menu li a{
+   
+    text-align:center;
+    height:30px;
+    line-height:30px;
+    display:block;
+    padding:0 20px;
+    font-size:24px;
+    color:rgb(0, 0, 0);
+}
+.menu li a:hover{background-color:rgb(67, 125, 149); color:rgb(255, 136, 0);}
+iframe, img{
+    margin-right:40px;
+}
