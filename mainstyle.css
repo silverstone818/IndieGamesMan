@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+html, body{
+    font-family: 'Jua', sans-serif;
+}
+#example2 {
+    padding-left: 0;
+}
+
+#example2 li {
+    list-style: none;
+}
+.menubars ul.li{
+    list-style-type: none;
+}
+.menu li a:hover{background-color:rgb(13, 43, 69); color:rgb(255, 255, 255);}
+ul{
+    list-style: none;
+}
+@media all and (max-width: 768px){ /*모바일*/
+    #grid{
+        position: fixed;
+        display:grid;
+        grid-template-columns: 7vw 1fr;
+        border-bottom:3px solid  rgb(175, 175, 175);
+        /* width: 100% */
+        top:0;
+        left:0;
+        right: 0;
+        padding-top:8px;
+        background-color: rgb(255, 255, 255);
+    }
+    .main{
+        font-size:20px;
+        padding-top:5px;
+        text-align: center;
+    }
+    a{
+        text-decoration-line: none;
+        color:black;
+    }
+	#check-btn { 
+        display: none;
+    }
+    #check-btn:checked ~ .menubars { 
+        display: block;
+        top:46px;
+        left: 0;  
+        width:150px;
+        background-color: rgb(255, 255, 255);
+        border:3px solid  rgb(175, 175, 175);
+        position:fixed; /*공중에 떠서 공간을 차지하지 않음*/
+        height:200%;    /*fixed를 해서 높이 100%가 가능해진다*/ 
+    } 
+    label{
+        font-size:25px;
+        padding-left:10px;
+        top:0;
+    }
+    .menubars { 
+        display: none;
+    }
+    
+    .mainbanner{
+        font-family: 'Great Vibes', cursive;
+        top:0;
+        margin-left: 0vmin;
+        margin-right: 0vmin;
+        margin-top: 0vmin;
+        margin-bottom: 20vmin;
+        background-image:url("img/gameimg1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top:20vmin;
+        font-size:10vw;
+        text-align: center;
+        font-family: 'Great Vibes', cursive;
+        text-shadow: 2px 2px #1c4274, 4px 4px #3160b1, 6px 6px #57a2df;
+    }
+    .suv{
+        font-size :6.5vw;
+        color:rgb(220, 230, 230);
+        font-family: 'Nanum Brush Script', cursive;
+        padding-bottom:14vmin;
+    }
+    body{
+        background-image:url("img/gameimg.jpg");
+        background-size: cover;
+        font-size:4vw;
+        text-align:center;
+    }
+    img.static{
+        position:static;
+    }
+    .menu li a{
+        text-align:center;
+        height:30px;
+        line-height:30px;
+        display:block;
+        padding:0 20px;
+        font-size:15px;
+        color:rgb(0, 0, 0);
+    }
+    .embed-container{
+        width:75vmin;
+        height: 50vmin;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 1099px){/*태블릿*/
+	#grid{
+        position: fixed;
+        display:grid;
+        grid-template-columns: 7vw 1fr;
+        border-bottom:3px solid  rgb(175, 175, 175);
+        /* width: 100% */
+        top:0;
+        left:0;
+        right: 0;
+        padding-top:8px;
+        background-color: rgb(255, 255, 255);
+    }
+    .main{
+        font-size:30px;
+        padding-top:5px;
+        text-align: center;
+    }
+    a{
+        text-decoration-line: none;
+        color:black;
+    }
+	#check-btn { 
+        display: none;
+    }
+    #check-btn:checked ~ .menubars { 
+        display: block;
+        top:52px;
+        left: 0;  
+        width:200px;
+        background-color: rgb(255, 255, 255);
+        border:3px solid  rgb(175, 175, 175);
+        position:fixed; /*공중에 떠서 공간을 차지하지 않음*/
+        height:200%;    /*fixed를 해서 높이 100%가 가능해진다*/ 
+    } 
+    label{
+        font-size:30px;
+        padding-left:10px;
+        top:0;
+    }
+    .menubars { 
+        display: none;
+    }
+    
+    .mainbanner{
+        font-family: 'Great Vibes', cursive;
+        top:0;
+        margin-left: 0vmin;
+        margin-right: 0vmin;
+        margin-top: 0vmin;
+        margin-bottom: 20vmin;
+        background-image:url("img/gameimg1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top:20vmin;
+        font-size:10vw;
+        text-align: center;
+        font-family: 'Great Vibes', cursive;
+        text-shadow: 2px 2px #1c4274, 4px 4px #3160b1, 6px 6px #57a2df;
+    }
+    .suv{
+        font-size :6.5vw;
+        color:rgb(220, 230, 230);
+        font-family: 'Nanum Brush Script', cursive;
+        padding-bottom:14vmin;
+    }
+    body{
+        background-image:url("img/gameimg.jpg");
+        background-size: cover;
+        font-size:2.4vw;
+    }
+    img.static{
+        position:static;
+    }
+    .menu li a{
+        text-align:center;
+        height:30px;
+        line-height:30px;
+        display:block;
+        padding:0 20px;
+        font-size:20px;
+        color:rgb(0, 0, 0);
+    }
+    .gameli{
+        text-align:center;
+        font-size:24px;
+    }
+    .embed-container{
+        width:640px;
+        height:360px;
+    }
+}
+
+@media all and (min-width: 1100px){ /*데스크탑*/
+    #grid{
+        position: fixed;
+        display:grid;
+        text-align: center;
+        border-bottom:3px solid  rgb(175, 175, 175);
+        top:0;
+        left:0;
+        right: 0;
+        
+        background-color: rgb(255, 255, 255);
+    }
+	body{
+        background-image:url("img/gameimg.jpg");
+        background-size: cover;
+        margin-left: 20vw;
+        margin-right:0;
+        max-width:1200px;
+        font-size:24px;
+    }
+    img.static{
+        position:static;
+    }
+    a{
+        color:black;
+        text-decoration:none;
+    }
+    .mainbanner{
+        top:0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 10vmin;
+        margin-bottom: 8vmin;
+        background-image:url("img/gameimg1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        max-width:1200px;
+        max-height: 400px;
+        padding:1vmin;
+        font-size:5vw;
+        text-align: center;
+        color:rgb(238, 235, 255);
+        font-family: 'Great Vibes', cursive;
+        text-shadow: 5px 5px #1c4274, 8px 8px #3160b1, 11px 11px #57a2df;
+    }
+    .suv{
+        font-size :3.6vw;
+        color:rgb(220, 230, 230);
+        font-family: 'Nanum Brush Script', cursive;
+    }
+    .main{
+        position: fixed;
+        top: 0vw;
+        left:0;
+        right: 0;
+        font-size:30px;
+        padding-top:5px;
+        padding-left:30px;
+        padding-bottom: 1vw;
+        border-bottom:3px solid  rgb(175, 175, 175);
+        background-color: rgb(255, 255, 255);
+    }
+    .menubars {     
+        top:56px;
+        left: 0;  
+        width:200px;
+        background-color: rgb(255, 255, 255);
+        border:3px solid  rgb(175, 175, 175);
+        border-top:none;
+        position:fixed;
+        height:200%;    
+    }
+    iframe, img{
+        margin-right:40px;
+    }
+    label{
+        display: none;
+    }
+    .menu li a{
+        text-align:center;
+        height:30px;
+        line-height:30px;
+        display:block;
+        padding:0 20px;
+        font-size:24px;
+        color:rgb(0, 0, 0);
+    }
+    .gameli{
+        text-align: center;
+        font-size:28px;
+    }
+    .embed-container{
+        width:105vmin;
+        height:60vmin;
+    }
+}
